@@ -1,19 +1,20 @@
 
 
 /*--header+nav--*/
-/*-
+
 .bg-img {
     background:url("../images/andra.jpg");
-    min-height:800px;
+    min-height:600px;
     max-width:100%;
     background-position: center;
     background-repeat:no-repeat;
     background-size:cover;
     position:relative;
+    background-attachment: fixed;
     
     
 }
--*/
+
 .grad{
   height:150px;
   background-image:linear-gradient(#410947,black,#292b2c);
@@ -46,7 +47,18 @@
     padding: 100px 25px;
     box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
     
+    
   }
+  
+  
+   .hero h1 {
+        font-size:5em;
+        margin-top:0;
+        margin-bottom:0.5em;
+        color:#410947;
+        
+        
+    }
   
   
 .heading1{
@@ -63,4 +75,17 @@
   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
   width:100%;
   
+  
 }
+
+
+
+.form {
+  text-align:center;
+  border:solid 1px black;
+  margin:20px 0;
+  padding:20px;
+  
+}
+
+
