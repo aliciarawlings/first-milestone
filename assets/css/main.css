@@ -3,26 +3,37 @@
 /*--header+nav--*/
 
 .bg-img {
-    background:url("../images/andra.jpg");
-    min-height:600px;
-    max-width:100%;
+    background:url("../images/mainlogo.png");
+    min-height:700px;
     background-position: center;
     background-repeat:no-repeat;
     background-size:cover;
     position:relative;
-    background-attachment: fixed;
-    
+    background-attachment:initial;
+    background-size:100%;
     
 }
 
 .grad{
   height:150px;
-  background-image:linear-gradient(#410947,black,#292b2c);
+  background-image:linear-gradient(#fff2cc,white);
+}
+
+.grad2{
+   background-image:linear-gradient(white,#fff2cc);
 }
 
 
+.navfont{
+  font-size:20px;
+  color:black;
+  text-decoration: none;
+}
+
+
+
 .social{
-  color:white;
+  color:black;
   padding:20px;
   
 }
@@ -30,6 +41,7 @@
 
 .social:hover{
   color:purple;
+  text-decoration: none;
 }
 
 
@@ -37,36 +49,15 @@
 
 
 .heading{
+  size:60px;
   font-family: 'Dancing Script', cursive;
   color:#996515	;
   
 }
 
-.jumbotron {
-  color:black;
-    padding: 100px 25px;
-    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
-    
-    
-  }
   
   
-   .hero h1 {
-        font-size:5em;
-        margin-top:0;
-        margin-bottom:0.5em;
-        color:#410947;
-        
-        
-    }
-  
-  
-.heading1{
-  
-  text-align:center;
-  color:#fff;
-  font-family:'Dancing Script' cursive;
-}
+
 
 /*--product-display--*/
 
@@ -79,6 +70,13 @@
 }
 
 
+.card {
+        margin: 0 auto; 
+        float: none; 
+        margin-bottom: 10px; 
+}
+
+
 
 .form {
   text-align:center;
@@ -87,5 +85,15 @@
   padding:20px;
   
 }
+
+img:hover {
+  filter:opacity(30%);
+}
+
+
+.icon {
+  position:fixed;
+}
+
 
 
