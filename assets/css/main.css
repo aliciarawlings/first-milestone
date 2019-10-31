@@ -55,7 +55,7 @@
   
 }
 
-  
+/*--------header and NAv End-------*/
   
 
 
@@ -74,17 +74,11 @@
         margin: 0 auto; 
         float: none; 
         margin-bottom: 10px; 
+        display:flex;
+        padding-left:15px;
+        
 }
 
-
-
-.form {
-  text-align:center;
-  border:solid 1px black;
-  margin:20px 0;
-  padding:20px;
-  
-}
 
 img:hover {
   filter:opacity(30%);
@@ -94,6 +88,34 @@ img:hover {
 .icon {
   position:fixed;
 }
+
+
+
+
+/*---------form PAges------*/
+
+.form {
+  text-align:center;
+  border:solid 1px black;
+  margin:20px 0;
+  padding:20px;
+  
+  
+}
+
+
+img:hover {
+  filter:opacity(30%);
+}
+
+
+@media only screen and (max-width:420px) {
+  .bg-img{
+    min-height:350px;
+  }
+}
+
+
 
 
 
