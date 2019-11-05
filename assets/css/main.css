@@ -38,6 +38,7 @@
   color:black;
   padding:20px;
   
+  
 }
 
 
@@ -57,6 +58,8 @@
   
 }
 
+
+
 /*--------header and NAv End-------*/
   
 
@@ -71,21 +74,18 @@
   
 }
 
-
+/*-----
 .card {
         margin: 0 auto; 
         float: none; 
-        margin-bottom: 10px; 
         display:flex;
         justify-content:center;
         padding-left:15px;
         
 }
+---*/
 
 
-img:hover {
-  filter:opacity(30%);
-}
 
 
 .icon {
@@ -126,7 +126,8 @@ input[email]{
 
 /*-------Styling setting---------*/
 
-img:hover {
+.card:hover{
+  
   filter:opacity(30%);
 }
 
@@ -139,7 +140,6 @@ img:hover {
     min-height:250px;
   }
 }
-
 
 
 
