@@ -66,8 +66,7 @@
 
 /*--product-display--*/
 
-.cards{
-  text-align: center;
+.cards{text-align: center;
   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
   width:100%;
   
@@ -142,5 +141,22 @@ input[email]{
 }
 
 
+@media only screen and (max-width:1024px){
+  border{
+        height:auto;
+      
+  }
+}
 
 
+/*-------Footer----*/
+.aboutme{
+  border-radius:50%;
+  width:150px;
+  height:150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+}
