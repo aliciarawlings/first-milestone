@@ -159,6 +159,7 @@ input[email]{
   }
 }
 
+
 /*-------Footer----*/
 .aboutme{
   border-radius:50%;
@@ -170,3 +171,21 @@ input[email]{
   
   
 }
+
+
+.productimg {
+  border-radius:50%;
+  width:300px;
+  height:300px;
+  vertical-align:top;
+}
+
+
+.product{
+  float:right;
+  clear:lefts;
+}
+  
+  
+  
+  
