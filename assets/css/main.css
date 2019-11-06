@@ -125,6 +125,7 @@ input[email]{
 
 /*-------Styling setting---------*/
 
+
 .card:hover{
   
   filter:opacity(30%);
@@ -133,6 +134,12 @@ input[email]{
 
 
 /*-----media-query-------------------------*/
+@media only screen and (min-width:1024px){
+  .card{
+  white-space: nowrap;
+}
+}
+
 
 @media only screen and (max-width:420px) {
   .bg-img{
