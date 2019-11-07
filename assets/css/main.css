@@ -1,49 +1,42 @@
-
-
 /*--header+nav--*/
 
 .bg-img {
-    background:url("../images/mainlogo.png");
-    min-height:700px;
-    background-position: center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    position:relative;
-    background-attachment:initial;
-    background-size:100%;
-    
+  background: url("../images/mainlogo.png");
+  min-height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: initial;
+  background-size: 100%;
+
 }
 
-.grad{
-  height:150px;
-  background-image:linear-gradient(#f8ebe3,white);
-}
-
-.grad2{
-   background-image:linear-gradient(white,#f8ebe3);
-}
-/*---
-#fff2cc
-----*/
-
-.navfont li{
-  font-size:20px;
-  color:black;
-  padding-left:20px;
+.grad {
+  height: 150px;
+  background-image: linear-gradient(#f8ebe3, white);
 }
 
 
 
-.social{
-  color:black;
-  padding:20px;
-  
-  
+.navfont li {
+  font-size: 20px;
+  color: black;
+  padding-left: 20px;
 }
 
 
-.social:hover{
-  color:purple;
+
+.social {
+  color: black;
+  padding: 20px;
+
+
+}
+
+
+.social:hover {
+  color: purple;
   text-decoration: none;
 }
 
@@ -51,148 +44,126 @@
 
 
 
-.heading{
-  size:60px;
+.heading {
+  size: 60px;
   font-family: 'Dancing Script', cursive;
-  color:#996515	;
-  
-}
+  color: #996515;
 
+}
 
 
 /*--------header and NAv End-------*/
-  
-
 
 /*--product-display--*/
 
-.cards{text-align: center;
-  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
-  width:100%;
-  
-  
-}
+.cards {
+  text-align: center;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  width: 100%;
 
-/*-----
-.card {
-        margin: 0 auto; 
-        float: none; 
-        display:flex;
-        justify-content:center;
-        padding-left:15px;
-        
-}
----*/
 
+}
 
 
 
 .icon {
-  position:fixed;
+  position: fixed;
 }
 
 
+
+.card-title {
+  height: 40px;
+  
+}
 
 
 /*---------form PAges------*/
 
 .form {
-  width:100%;
-  text-align:center;
-  border:solid 1px black;
-  margin:20px 0;
-  padding:20px;
-  display:inline-block;
-  border-radius:5px;
-  
-  
+  width: 100%;
+  height:auto;
+  text-align: center;
+  border: solid 1px black;
+  margin: 20px 0;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 5px;
+ 
+
 }
 
 input[text] {
-  width:auto;
-  height:auto;
+  width: auto;
+  height: auto;
 }
 
-input[date]{
-  width:auto;
-  height:auto;
+input[date] {
+  width: auto;
+  height: auto;
 }
 
-input[email]{
-  width:auto;
-  height:auto;
+input[email] {
+  width: auto;
+  height: auto;
 }
 
-/*-------Styling setting---------*/
 
-
-.card:hover{
-  
-  filter:opacity(30%);
-}
 
 
 
 /*-----media-query-------------------------*/
-@media only screen and (min-width:1024px){
-  .card{
-  white-space: nowrap;
+
+
+
+@media only screen and (min-width:768px){
+  .form2{
+    height:100vh;
+  }
 }
+
+
+
+
+@media only screen and (min-width:1440px){
+  .card:hover {
+
+  filter: opacity(30%);
 }
+
+
+}
+
+
 
 
 @media only screen and (max-width:420px) {
-  .bg-img{
-    min-height:250px;
+  .bg-img {
+    min-height: 250px;
   }
 }
 
 
 
-@media only screen and (max-width:2560px){
-  .foot1{
-    position:fixed;
-    left:0;
-    bottom:0;
-  
+@media only screen and (max-width:2560px) {
+  .foot1 {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
   }
 }
 
-@media only screen and (min-width:319px){
-  .foot1{
-    position:relative;
-    left:0;
-    bottom:0;
+@media only screen and (min-width:319px) {
+  .foot1 {
+    position: relative;
+    left: 0;
+    bottom: 0;
   }
 }
 
-
-/*-------Footer----*/
-.aboutme{
-  border-radius:50%;
-  width:150px;
-  height:150px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  
-  
+/*------footer--------*/
+.grad2 {
+  background-image: linear-gradient(white, #f8ebe3);
 }
 
-
-.productimg {
-  border-radius:50%;
-  width:300px;
-  height:300px;
-  vertical-align:top;
-}
-
-
-.product{
-  float:right;
-  clear:lefts;
-}
-  
-  
-  
-  
