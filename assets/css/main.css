@@ -110,7 +110,10 @@ input[email] {
 
 
 
-
+/*----------LOGIN PAGE---------*/
+.login {
+  text-align:center;
+}
 
 /*-----media-query-------------------------*/
 
