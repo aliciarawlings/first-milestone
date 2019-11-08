@@ -21,7 +21,6 @@
     Content regarding prices and product information. 
     Login :Displayed in nav bar at top of page
     create an account.:displayed in nav bar at top of page;
-    
     BRANDING:
     Products and purchases will be the second half of the page, we want the page split into three sections. First, from the top is the navbar, then logo and finally the products. 
     Advertising the Skincare product is most important to our branding as they are the foundation of business and the focal point. 

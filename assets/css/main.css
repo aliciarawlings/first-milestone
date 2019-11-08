@@ -23,6 +23,7 @@
   font-size: 20px;
   color: black;
   padding-left: 20px;
+  font-family: 'Crimson Text', serif;
 }
 
 
@@ -60,6 +61,7 @@
   text-align: center;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
   width: 100%;
+   font-family: 'Crimson Text', serif;
 
 
 }
@@ -109,11 +111,19 @@ input[email] {
 }
 
 
+.submit {
+  background-color:black;
+  color:white;
+  border:1px black solid;
+  border-radius:25px;
+}
+
 
 /*----------LOGIN PAGE---------*/
 .login {
   text-align:center;
 }
+
 
 /*-----media-query-------------------------*/
 

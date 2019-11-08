@@ -61,7 +61,7 @@
 
 
     <div class="form">
-      <form>
+      <form action="form2.html">
 
         <h3>Product Review</h3>
         <hr>
@@ -82,7 +82,7 @@
         <h3>Shippment Details:</h3>
         <hr> First Line Address:<br>
         <input type="text" name="First line address" placeholder="First Line Of Address" required><br><br> Second Line Address:<br>
-        <input type="text" name="Second Line Address" placeholder="Second Line Of Address" required><br><br> City/Province
+        <input type="text" name="Second Line Address" placeholder="Second Line Of Address"><br><br> City/Province
 
         <br>
         <input type="text" name="City/Province" placeholder="City/Province"><br>
@@ -93,18 +93,17 @@
         <h3>Contact Details:</h3>
         <hr> Telephone Number:<br>
         <input type="tel" name="Telephone Number" placeholder="Telephone Number" ><br><br> Mobile Phone Number:<br>
-        <input type="tel" name="Mobile Number" placeholder="Mobile Number"><br><br> Email Address:<br>
-        <input type="email" name="email" placeholder="Email Address" ><br><br>
+        <input type="tel" name="Mobile Number" placeholder="Mobile Number" required><br><br> Email Address:<br>
+        <input type="email" name="email" placeholder="Email Address" required ><br><br>
         <br>
         <br>
 
-        <a href="https://www.termsandconditionsgenerator.com/live.php?token=SHeBNYLzfg2TS3RkcuW0MB6fBjvnlzeK" target="_blank">T&C's</a><br>
+        <a href="https://www.termsandconditionsgenerator.com/live.php?token=SHeBNYLzfg2TS3RkcuW0MB6fBjvnlzeK" target="_blank">Please Read Our T&C's</a><br>
         <br>
-        <input type="checkbox" name="tncs" value="terms">I have read and fully understand the terms and conditions<br><br>
+        <input type="checkbox" name="tncs" value="terms" required>I have read and fully understand the terms and conditions<br><br>
 
 
-
-        <a href="form2.html" class="btn btn-primary text-light bg-dark">Proceed to Payment</a>  <!---BOOTSTRAP--BUTTON-->
+      <input type="submit" name="next" value="Proceed to Payment" class="submit">
 
 
 
@@ -145,7 +144,7 @@
             <div class="col-sm-11">
               <div>
                 <h4>..Contact</h4>
-                <p><em>www.naturalhealings@gmail.com</em></p>
+                <p><em>naturalhealings@gmail.com</em></p>
               </div>
             </div>
           </div>
@@ -153,16 +152,16 @@
         <div class="col-md-5">
           <div class="d-inline-block">
             <div class="bg-circle-outline d-inline-block">
-              <a href="https://www.facebook.com/NaturalHealingsSkincare/"><i class="fa fa-2x fa-fw fa-facebook" style="color:black;"></i>
+              <a href="https://www.facebook.com/NaturalHealingsSkincare/" target="_blank"><i class="fa fa-2x fa-fw fa-facebook" style="color:black;"></i>
 		</a>
             </div>
             <div class="bg-circle-outline d-inline-block">
               <a href="https://twitter.com/">
-                <i class="fa fa-2x fa-fw fa-twitter"style="color:black;"></i></a>
+                <i class="fa fa-2x fa-fw fa-twitter"style="color:black;" target="_blank"></i></a>
             </div>
 
             <div class="bg-circle-outline d-inline-block">
-              <a href="https://www.instagram.com/natural.healings.skincare/">
+              <a href="https://www.instagram.com/natural.healings.skincare/" target="_blank">
                 <i class="fa fa-2x fa-fw fa-instagram" style="color:black;"></i></a>
             </div>
             <p>&copy;NaturalHealingsSkincare.com</p>

@@ -62,7 +62,7 @@
 
 
     <div class="form form2">
-      <form>
+      <form action="thankyou.html">
 
         <h3>Payment Details:</h3>
         <hr>
@@ -70,11 +70,11 @@
         <h4>Payment type:</h4><br>
 
         <i class="fa fa-cc-visa "></i>
-        <input type="radio" name="payment" value="Visa" class="radio">Visa</a>
+        <input type="radio" name="payment" value="Visa" class="radio"required>Visa</a>
         <i class="fa fa-cc-mastercard "></i>
-        <input type="radio" name="payment" Value "Mastercard" class="radio"> Mastercard
+        <input type="radio" name="payment" Value "Mastercard" class="radio" required> Mastercard
         <i class="fa fa-cc-paypal"></i>
-        <input type="radio" name="payment" value="paypal" class="radio">Paypal
+        <input type="radio" name="payment" value="paypal" class="radio" required>Paypal
 
         <hr>
 
@@ -83,28 +83,29 @@
         <form>
 
           <h6>Card number </h6>
-          <input type="text" name="cardnumber" placeholder="Enter Card Number"><br>
+          <input type="text" name="cardnumber" placeholder="Enter Card Number" required><br>
           <br>
 
           <h6>Expiry Date:</h6>
-          <input type="date" name="date" placeholder="Enter Expiry Date" style="text-align:center;"><br>
+          <input type="month" name="month" placeholder="Enter Expiry month" style="text-align:center;"min="2018-03" value="2018-05" required><br>
           <br>
 
-          <h6>CVC</h6>
-          <input type="text" name="cvc" size="3" placeholder="CVV" style="text-align:center;"><br>
+          <h6>CVV</h6>
+          <input type="text" name="cvv" size="3" placeholder="CVV" style="text-align:center;" required><br>
           <br>
 
           <h6>Cardholder Name:</h6>
-          <input type="text" name="name" placeholder="Full Name"><br>
+          <input type="text" name="name" placeholder="Full Name" required><br>
           <br>
           <h6>CardHolder Address:</h6>
-          <input type="text" name="address" placeholder="Address Details"><br>
+          <input type="text" name="address" placeholder="Address Details" required><br>
           <br>
           <hr>
+          
+          
 
 
-          <a href="thankyou.html" class="btn btn-primary text-light bg-dark">Complete Your Order!</a> <!--BOOTSTRAP-BTN-->
-
+           <input type="submit" name="next" value="Complete Your Order" class="submit">
 
 
         </form>
@@ -147,7 +148,7 @@
             <div class="col-sm-11 ">
               <div>
                 <h4>..Contact</h4>
-                <p>...<em>www.naturalhealings@gmail.com </em></p>
+                <p>...<em>naturalhealings@gmail.com </em></p>
               </div>
             </div>
           </div>
@@ -155,16 +156,16 @@
         <div class="col-md-5">
           <div class="d-inline-block">
             <div class="bg-circle-outline d-inline-block">
-              <a href="https://www.facebook.com/NaturalHealingsSkincare/"><i class="fa fa-2x fa-fw fa-facebook "style=color:black;></i>
+              <a href="https://www.facebook.com/NaturalHealingsSkincare/" target="_blank"><i class="fa fa-2x fa-fw fa-facebook "style=color:black;></i>
 		</a>
             </div>
             <div class="bg-circle-outline d-inline-block">
-              <a href="https://twitter.com/">
+              <a href="https://twitter.com/" target="_blank">
                 <i class="fa fa-2x fa-fw fa-twitter"style=color:black;></i></a>
             </div>
 
             <div class="bg-circle-outline d-inline-block">
-              <a href="https://www.instagram.com/natural.healings.skincare/">
+              <a href="https://www.instagram.com/natural.healings.skincare/" target="_blank">
                 <i class="fa fa-2x fa-fw fa-instagram"style=color:black;></i></a>
             </div>
 
