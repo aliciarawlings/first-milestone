@@ -68,11 +68,9 @@
 
 
 
-.icon {
-  position: fixed;
+.cardfont{
+  font-size:20px;
 }
-
-
 
 .card-title {
   height: 40px;
@@ -88,10 +86,9 @@
   text-align: center;
   border: solid 1px black;
   margin: 20px 0;
-  padding: 20px;
+  padding: 12px 20px;
   display: inline-block;
   border-radius: 5px;
- 
 
 }
 
@@ -122,7 +119,19 @@ input[email] {
 /*----------LOGIN PAGE---------*/
 .login {
   text-align:center;
+  width: 100%;
+  height:auto;
+  text-align: center;
+  border: solid 1px black;
+  margin: 20px 0;
+  padding: 12px 20px;
+  display: inline-block;
+  border-radius: 5px;
+
 }
+
+
+
 
 
 /*-----media-query-------------------------*/
@@ -174,6 +183,7 @@ input[email] {
     bottom: 0;
   }
 }
+
 
 /*------footer--------*/
 .grad2 {

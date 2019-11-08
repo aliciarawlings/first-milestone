@@ -12,8 +12,9 @@
     The focus audience we want to attract is business to consumer and to portray the products in a way that best
     represents the company. Customers will find that the webpage is simple and easy to navigate 
     around. They can browse through the small range of products simply and easily. Andra wants a very simple and 
-    clean presentation to correspond with the simplicity of her products. The value of creating the page is to increase sales and to develop an business image
-    that is not soley related to generic social media sites. This page will be her online business card of sorts and will be proof for her customers of the businesses abilities.
+    clean presentation to correspond with the simplicity of her products. The value of creating the page is to increase sales and to develop a business image
+    that is not soley related to generic social media sites. This page will be her online business card of sorts and will be proof for her customers of 
+    the businesses abilities.
     
     
     SCOPE PLAN:
@@ -21,6 +22,10 @@
     Content regarding prices and product information. 
     Login :Displayed in nav bar at top of page
     create an account.:displayed in nav bar at top of page;
+    details tags on products to give quick access to information without having to leave the page. Thus no need for the back button . 
+    Social media icons with anchors to social media sites.= giving cutsomers another media outlet, increasing advertising. 
+    
+    
     BRANDING:
     Products and purchases will be the second half of the page, we want the page split into three sections. First, from the top is the navbar, then logo and finally the products. 
     Advertising the Skincare product is most important to our branding as they are the foundation of business and the focal point. 
