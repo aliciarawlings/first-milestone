@@ -8,14 +8,13 @@
     
 STRATEGY PLAN:
     The focus audience we want to attract is business to consumer and to portray the products in a way that best
-    represents the company. Customers will find that the webpage is simple and easy to navigate 
-    around. They can browse through the small range of products fast and intuitively. Andra wants a very simple and 
+    represents the company. Customers will find that the webpage is simple and easy to navigate. They can browse through the small range of products fast and intuitively. Andra wants a very simple and 
     clean presentation to correspond with the simplicity of her products. The value of creating the page is to increase sales and to develop a business image
     that is not soley related to generic social media sites. This page will act as her online business card of sorts and will be proof for her customers of 
     the businesses abilities. 
     
 SCOPE PLAN:
-    We want the page to have a small amount of features. We want the pruchasing process to be as smooth as possible with no room for confusion. 
+    We want the page to have a small amount of features. We want the purchasing process to be as smooth as possible with no room for confusion. 
     Features that we want included are:
     1.Navigation bar
     2.Content regarding prices and product information. 
@@ -52,7 +51,7 @@ STRUCTURE PLANE:
     To the right of this is more social media icons which when clicked on will take the user to the relevant pages. 
     
     
-SKELETON PLAN:
+SKELETON PLANE:
     Our navigation bar will be placed at the top of the page as it is conventual and commonly used. Within the navigation bar will be our jewellery , skin and login/signup anchors. 
     The page will be split into four parts, our nav, logo image, products and finally our footer. Within the nav bar and footer is social media logos which 
     also acts as a link when clicked on. I wanted the Navigation bar to be as bare as possible so the user didnt waste anytime
@@ -63,7 +62,7 @@ SKELETON PLAN:
     I wanted very little features on the screen as not to overwhelm the user and not to make the experience too complex. 
 
     
-SURFACE PLAN:
+SURFACE PLANE:
     The page has a very soft and simple look. I didnt want any vibrant colors as I feel that it doesnt correspond with the notion of natural ingredients.
     The products packaging is black with colorful highlights, therefore the page has to appear as neutural as possible, I dont want too much visual stimulation.
     A gradient effect is applied to the navigation bar and footer to make a smooth transition between the end of logo and end of products. The color #f8ebe3 is taken from the lightest color within the products logo, which I got from
