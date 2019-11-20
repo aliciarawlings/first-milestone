@@ -14,33 +14,75 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
 	<title>Skin Care2</title>
+	<style>
+		h1 {
+			color: #d4af37;
+		}
 
+
+		.reviews {
+			font-family: 'Crimson Text', serif;
+			text-align: center;
+			border: 1px solid #d4af37;
+			border-radius: 30px;
+
+
+		}
+
+
+
+
+		.testimonial-box img {
+			display: inline-block;
+			width: 90px;
+			height: 90px;
+			border-radius: 50%;
+			margin: 0 0 15px;
+		}
+
+		.testimonial-box h4 {
+			color: #fe4819;
+		}
+
+		.testimonial-box p {
+			margin-bottom: 20px;
+			font-size: 17px;
+			font-style: italic;
+			font-weight: 400;
+		}
+
+		.ratings-icons {
+			color: #fec42d;
+			margin-bottom: 15px;
+		}
+	</style>
 </head>
 
 <body>
 	<!-------------------------------NAV-BAR---------------------------------------------------------->
-		<!-----BOOTSTRAP LIBRARY-------->
-			
+	<!-----BOOTSTRAP LIBRARY-------->
+
 	<nav class="navbar navbar-expand-sm navbar-light bg-light grad navfont">
-		<a  href="index.html" class="navbar-brand heading">Natural Healings Skincare</a>
+		<a href="index.html" class="navbar-brand heading">Natural Healings Skincare</a>
 		<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav">
-				 <li class="nav-item">
-          <a class="nav-brand text-muted" href="login.html">Login/Signup</a>
-          </li>
 				<li class="nav-item">
-					<a class="nav-brand text-muted" href="jewelery.html">Jewellery</a>
+					<a class="nav-brand text-muted" href="login.html">Login/Signup</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-brand text-muted" href="skincare.html">Skin </a>
+					<a class="nav-brand text-muted" href="jewelery.html">Products</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-brand text-muted" href="skincare.html">Home</a>
 
 				</li>
 			</ul>
 			<div class="container-fluid  d-none d-sm-block d-none d-md-block">
-				<div class="row">				<!----FONT-AWESOME-ICONS--->
+				<div class="row">
+					<!----FONT-AWESOME-ICONS--->
 					<div class="col"></div>
 					<a class="fa fa-facebook social" href="https://www.facebook.com/NaturalHealingsSkincare/" target="_blank"></a>
 					<i class="fa fa-instagram social "></i>
@@ -53,229 +95,623 @@
 
 
 
-  <!-------------------------------PRODUCT CARDS--------------------------------------------------------->
-				<!-----BOOTSTRAP LIBRARY-------->
-	<div class="container">
-	<div class="row bg-img"></div>
+	<!-------------------------------PRODUCT CARDS--------------------------------------------------------->
+	<!-----BOOTSTRAP LIBRARY-------->
+	<div class="container ">
+		<div class="row"></div>
 		<hr>
 
-		<div class="row">
 
-			<div class="col-sm-6 col-md-4">
-				<div class="card">
-					<div class="card-body cards">
-						<img class="img-fluid" src="assets/images/pepper1.jpg">
 
-						<h5 class="card-title">Peppermint & Lavender Scrub</h5>
-						<p class="card-text">$19.99.</p>
-						<details>
-							<summary>More Details</summary>
-							<p><em>Try our tingly lavender and peppermint body scrub. Peppermint essential oils
-							are known to improve mental fatigue, back pains and coughs. Our signature blend also
-							leaves you with younger, fresher feeling skin.</em></p>
-							<em>200ml</em><br>
-							<strong>Ingredients:</strong>
-							<p>Magnesium Sulfate (Epsom Salt), Sodium Chloride (Fine Sea Salt), Prunus Dulcis (Sweet Almond Oil), Vitis Vinifera (Grape Seed Oil), Lavandula Angustifolia (Lavender Essential Oil), Mentha Piperita (Peppermint Essential Oil), Dried Peppermint Leaves,
-								Dried Lavender.
-							</p>
-						</details>
-						<a href="form.html" class="btn btn-primary text-light bg-dark">Buy Now!</a>
+		<div class="container">
+
+
+			<div class="row">
+
+
+				<div class="col-sm-6 col-md-5 m-4">
+					<div class="card">
+						<div class="card-body cards ">
+							<img class="img-fluid" src="assets/images/bodyscrub.jpg">
+							<h5 class="card-title">Vanilla & Mandarin Scrub </h5>
+							<p class="card-text">$15.99</p>
+
+
+							<button type="button" class="btn btn-success" data-toggle="modal" data-target="#modalquickview">Quick View</button>
+							<a href="form.html" class="btn btn-primary text-light bg-dark">Buy Now!</a>
+						</div>
 					</div>
 				</div>
-			</div>
 
-			<div class="col-sm-6 col-md-4">
-				<div class="card cards">
-					<div class="card-body">
-						<img class="img-fluid" src="assets/images/coffee3.jpg">
-						<h5 class="card-title">Coffee & Vanilla Scrub</h5>
-						<p class="card-text">$15.99</p>
-						<details>
-							<summary>More Details</summary>
-							<p><em>Try our awakening coffee body scrub.Coffee scrubs have endless benefits for your skin.
-							It can help reduce inflammation, reduce cellulite, removes dead skin cells and gives you radiant 
-							youthful looking skin.</em></p>
-							<em>200ml</em><br>
-							<strong>Ingredients</strong>
-							<p>Magnesium Sulfate (Epsom Salt), Sodium Chloride (Fine Sea Salt), Cofea Arabica Seed Powder, Cocos Nucifera (Coconut Oil), Prunus Dulcis (Sweet Almond Oil), Vitis Vinifera (Grape Seed Oil), Vanilla Oil.
-							</p>
-						</details>
-						<a href="form.html" class="btn btn-primary text-light bg-dark">Buy now!!</a>
+
+				<div class="col-sm-6 col-md-5 m-4">
+					<div class="card">
+						<div class="card-body cards ">
+							<img class="img-fluid" src="assets/images/soap.jpg">
+							<h5 class="card-title">Geranium and Ylang-Ylang Soap</h5>
+							<p class="card-text">$7.00</p>
+							<button type="button" class="btn btn-success" data-toggle="modal" data-target="#modalquickview2">Quick View</button>
+							<a href="form.html" class="btn btn-primary text-light bg-dark">Buy Now!</a>
+						</div>
 					</div>
 				</div>
-			</div>
 
 
-			<div class="col-sm-6 col-md-4">
-				<div class="card">
-					<div class="card-body cards ">
-						<img class="img-fluid" src="assets/images/bodyscrub.jpg">
-						<h5 class="card-title">Vanilla & Mandarin Scrub </h5>
-						<p class="card-text">$15.99</p>
-						<details>
-							<summary>More Details</summary>
-							<p><em>Our deliciously scented body scrub smells so good you could eat it. Infused with
-							dried manderin skin and vanilla essential oils. This scrub will leave your skin feeling
-							brand new!</em></p>
-							<em>200ml</em><br>
-							<strong>Ingredients</strong>
-							<p>Magnesium Sulfate (Epsom Salt), Sodium Chloride (Fine Sea Salt), Prunus Dulcis (Sweet Almond Oil), Prunus Armeniaca (Aprikot Kernel Oil), Citrus Nobilis (Mandarin Essential Oil), Vanilla Essential Oil, Dried Mandarin Skins, *Limonene, *Linalool.
-								*Naturally occurs in essential oils.
-							</p>
+				<div class="col-sm-6 col-md-5 m-4">
+					<div class="card">
+						<div class="card-body cards ">
+							<img class="img-fluid" src="assets/images/lip.jpg">
+							<h5 class="card-title"> Vanilla beeswax Lip Balm</h5>
+							<p class="card-text">$4.99</p>
+							<button type="button" class="btn btn-success" data-toggle="modal" data-target="#modalquickview3">Quick View</button>
 
-						</details>
-						<a href="form.html" class="btn btn-primary text-light bg-dark">Buy Now!</a>
+							<a href="form.html" class="btn btn-primary text-light bg-dark">Buy Now!</a>
+						</div>
 					</div>
 				</div>
-			</div>
-<!----review----->
-        <div class="container">
-            <div class=" row ingred">
-                
-                   <img src="assets/images/sadie.jpg" height="200px" width="200px" class="ingred">
-                    <p><q>My Skin has never felt so good! Im never turning back to corporate products!!</q></p>
-                    
-                </div>
-                
-            
-        </div>
 
-			<div class="col-sm-6 col-md-4 ">
-				<div class="card">
-					<div class="card-body cards ">
-						<img class="img-fluid" src="assets/images/soap.jpg">
-						<h5 class="card-title">Geranium and Ylang-Ylang Soap</h5>
-						<p class="card-text">$7.00</p>
-						<details>
-							<summary>More Details</summary>
-							<p><em>Ylang ylang oil is made from the flowers of the herb Cananga 
-							odorata genuina. People apply ylang ylang oil to the skin to promote relaxation,
-							kill bacteria, lower blood pressure</em></p>
-							<em>70g</em>
-							<strong>Ingredients</strong>
-							<p>Saponified Oils of Olea Europaea (Organic Extra Virgin Olive Oil), Cocos Nucifera (Organic Virgin Coconut Oil), Vitis Vinifera ( Grapeseed Oil), Butyrospermum Parkii (Organic She Butter), Pelargonium Graveolens (Rose Geranium), Cananga Odorata
-								(Ylang-Ylang) *Citral, *Geraniol, *Citronellol, *Limonene, *Linalool, *Benzyl salicylate, *Benzyl benzoate, *Farnesol, *Isoeugenol, *Eugenol- *Component of Natural Essential Oils </p>
-						</details>
-						<a href="form.html" class="btn btn-primary text-light bg-dark">Buy Now!</a>
+				<div class="col-sm-6 col-md-5 m-4">
+					<div class="card">
+						<div class="card-body cards ">
+							<img class="img-fluid" src="assets/images/lavender.jpg">
+							<h5 class="card-title">Lavender Face Cream</h5>
+							<p class="card-text">$8.99.</p>
+							<button type="button" class="btn btn-success" data-toggle="modal" data-target="#modalquickview4">Quick View</button>
+							<a href="form.html" class="btn btn-primary text-light bg-dark">Buy Now!</a>
+						</div>
 					</div>
 				</div>
-			</div>
 
-
-			<div class="col-sm-6 col-md-4">
-				<div class="card">
-					<div class="card-body cards ">
-						<img class="img-fluid" src="assets/images/lip.jpg">
-						<h5 class="card-title"> Vanilla beeswax Lip Balm</h5>
-						<p class="card-text">$4.99</p>
-						<details>
-							<summary>More Details</summary>
-							<p><em>
-							When those cold days are too much for your prescious lips! Let our vanilla lip balm
-							do the job. Made with beeswax and vitamin E oil to help rejuvenate your lips.</em>
-							</p>
-							<em>5ml</em>
-							<strong>Ingredients</strong>
-							<p>Butyrosperum Parkii (Shea Butter), Cera Alba (Beeswax), Mangifera Indica (Mango Seed Butter), Cocos Nucifera (Coconut Oil), Simmondsia Chinensis (Jojoba Oil), Tocopherol (Vitamin E), Vanilla Oil.
-							</p>
-
-						</details>
-						<a href="form.html" class="btn btn-primary text-light bg-dark">Buy Now!</a>
+				<div class="col-sm-6 col-md-5 m-4">
+					<div class="card">
+						<div class="card-body cards ">
+							<img class="img-fluid" src="assets/images/bath.jpg">
+							<h5 class="card-title">Naturally Pure Bath Salts</h5>
+							<p class="card-text">$8.99</p>
+							<button type="button" class="btn btn-success" data-toggle="modal" data-target="#modalquickview5">Quick View</button>
+							<a href="form.html" class="btn btn-primary text-light bg-dark">Buy Now!</a>
+						</div>
 					</div>
 				</div>
-			</div>
 
-			<div class="col-sm-6 col-md-4">
-				<div class="card">
-					<div class="card-body cards ">
-						<img class="img-fluid" src="assets/images/lavender.jpg">
-						<h5 class="card-title">Lavender Face Cream</h5>
-						<p class="card-text">$8.99.</p>
-						<details>
-							<summary>More Details</summary>
-							<p>Lavender Face Cream</p>
-							<p><em>This cooling face cream is a great starter to your day or night. Great moisturiser for all skin types</em></p>
-							<em>150ml</em>
-							<strong>Ingredients</strong>
-							<p>Mangifera Indica (Mango Seed Butter), Cocos Nucifera (Coconut Oil), Theobroma Cacao (Cocoa Butter), Vitis Vinifera (Grapeseed Oil), Prunus Armeniaca (Aprikot Kernel Oil), Rosa Canina (Rosehip Oil), Tocopherol(Vitamin E).
-							</p>
-						</details>
-						<a href="form.html" class="btn btn-primary text-light bg-dark">Buy Now!</a>
+				<div class="col-sm-6 col-md-5 m-4">
+					<div class="card">
+						<div class="card-body cards ">
+							<img class="img-fluid" src="assets/images/maychang.jpg">
+							<h5 class="card-title">MayChang & Orange Butter</h5>
+							<p class="card-text">$13.99</p>
+							<button type="button" class="btn btn-success" data-toggle="modal" data-target="#modalquickview6">Quick View</button>
+							<a href="form.html" class="btn btn-primary text-light bg-dark">Buy Now!</a>
+						</div>
 					</div>
 				</div>
-			</div>
 
-			<div class="col-sm-6 col-md-4">
-				<div class="card">
-					<div class="card-body cards ">
-						<img class="img-fluid" src="assets/images/bath.jpg">
-						<h5 class="card-title">Naturally Pure Bath Salts</h5>
-						<p class="card-text">$8.99</p>
-						<details>
-							<summary>More Details</summary>
-							<p>Naturally Pure Bath Salt</p>
-							<p><em>Spark up your bath time with our soothing and relaxing bath salt mix</em></p>
-							<em>150g</em><br>
-							<strong>Ingredients</strong>
-							<p>Sodium Bicarbonate, Citric Acid, Corn Flour, Magnesium Sulfate (Epsom Salt), Himalayan Pink Salt, Which Hazel, Vitis Vinifera (Grapeseed Oil), Dried Rose Petals.
-							</p>
-						</details>
-						<a href="form.html" class="btn btn-primary text-light bg-dark">Buy Now!</a>
+				<div class="col-sm-6 col-md-5 m-4">
+					<div class="card">
+						<div class="card-body cards ">
+							<img class="img-fluid" src="assets/images/vanilla.jpg">
+							<h5 class="card-title">Vanilla & Lavender Butter</h5>
+							<p class="card-text">$13.99</p>
+							<button type="button" class="btn btn-success" data-toggle="modal" data-target="#modalquickview7">Quick View</button>
+							<a href="form.html" class="btn btn-primary text-light bg-dark">Buy Now!</a>
+						</div>
 					</div>
 				</div>
-			</div>
 
-			<div class="col-sm-6 col-md-4">
-				<div class="card">
-					<div class="card-body cards ">
-						<img class="img-fluid" src="assets/images/maychang.jpg">
-						<h5 class="card-title">MayChang & Orange Butter</h5>
-						<p class="card-text">$13.99</p>
-						<details>
-							<summary>More Details</summary>
-							<p>May Chang and Sweet Orange Body Butter</p>
-							<p><em>May Chang is one of the citrus essential oils and often referred to as the "sunshine essential oil" so light up your day with our citrus and sweet body butter</em></p>
-							<em>200ml</em>
-							<strong>Ingredients</strong>
-							<p>Butyrosperum Parkii (Shea Butter), Cocos Nucifera (Coconut Oil), Prunus Dulcis (Almond Oil), Theobroma Cacao (Cocoa Butter), Calendula Officinalis – Sunflower oil (Calendula Infused Oil), Tocopherol (Vitamin E), Litsea Cubeba (May Chang Essential
-								Oil), Citrus Aurantium Dulcis (Sweet Orange Peel Oil), *Limonene, *Citral *Naturally occurs in essential oils.
-							</p>
-						</details>
-						<a href="form.html" class="btn btn-primary text-light bg-dark">Buy Now!</a>
+
+
+
+
+
+
+				<div class="col-sm-6 col-md-5 m-4">
+					<div class="card">
+						<div class="card-body cards">
+							<img class="trans img-fluid" src="assets/images/purplebrace.jpg">
+							<h5 class="card-title">Vanilla & Coco bracelet</h5>
+							<p class="card-text">$10.99</p>
+
+							<button type="button" class="btn btn-success" data-toggle="modal" data-target="#modalquickview8">Quick View</button>
+							<a href="form.html" class="btn btn-primary text-light bg-dark">Buy Now!</a>
+
+						</div>
+
 					</div>
 				</div>
-			</div>
 
-			<div class="col-sm-6 col-md-4">
-				<div class="card">
-					<div class="card-body cards ">
-						<img class="img-fluid" src="assets/images/vanilla.jpg">
-						<h5 class="card-title">Vanilla & Lavender Butter</h5>
-						<p class="card-text">$13.99</p>
-						<details>
-							<summary>More Details</summary>
-							<p><em>This Vanilla and Lavender body butter is a naturally scented moisturiser to help tackle dry skin</em></p>
-							<em>200ml</em>
-							<p><strong>Ingredients:</strong> Butyrosperum Parkii (Shea Butter), Cocos Nucifera (Coconut Oil), Vitis Vinifera (Grapeseed Oil) Theobroma Cacao (Cocoa Butter), Calendula Officinalis – Sunflower oil (Calendula Infused Oil), Tocopherol (Vitamin E),
-								Lavandula Angustifolia (Lavender Oil), Vanilla Oil.
-							</p>
-						</details>
-						<a href="form.html" class="btn btn-primary text-light bg-dark">Buy Now!</a>
+
+
+
+
+				<div class="col-sm-6 col-md-5 m-4">
+					<div class="card">
+						<div class="card-body cards ">
+							<img class="trans img-fluid" src="assets/images/greenbrace.jpg">
+							<h5 class="card-title">ylang ylang bracelet</h5>
+							<p class="card-text">$10.99</p>
+
+							<button type="button" class="btn btn-success" data-toggle="modal" data-target="#modalquickview9">Quick View</button>
+							<a href="form.html" class="btn btn-primary text-light bg-dark">Buy Now!</a>
+						</div>
+
+					</div>
+
+				</div>
+
+
+
+				<div class="col-sm-6 col-md-5 m-4">
+					<div class="card ">
+						<div class="card-body cards ">
+							<img class="trans img-fluid" src="assets/images/bluebrace.jpg">
+							<h5 class="card-title">Lavender & peppermint</h5>
+							<p class="card-text">$10.99</p>
+							<button type="button" class="btn btn-success" data-toggle="modal" data-target="#modalquickview10">Quick View</button>
+							<a href="form.html" class="btn btn-primary text-light bg-dark">Buy Now!</a>
+
+						</div>
+
 					</div>
 				</div>
+
+				<div class="col-sm-6 col-md-5  m-4">
+					<div class="card">
+						<div class="card-body cards ">
+							<img class="trans img-fluid" src="assets/images/lavbrace.jpg">
+							<h5 class="card-title">Lavender & Vanilla Bracelet</h5>
+							<p class="card-text">$10.99</p>
+
+							<button type="button" class="btn btn-success" data-toggle="modal" data-target="#modalquickview11">Quick View</button>
+							<a href="form.html" class="btn btn-primary text-light bg-dark">Buy Now!</a>
+
+						</div>
+
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-5 m-4">
+					<div class="card">
+						<div class="card-body cards ">
+							<img class="trans img-fluid" src="assets/images/yellowbrace.jpg">
+							<h5 class="card-title">Maychang & orange Bracelet</h5>
+							<p class="card-text">$10.99</p>
+							<button type="button" class="btn btn-success" data-toggle="modal" data-target="#modalquickview12">Quick View</button>
+							<a href="form.html" class="btn btn-primary text-light bg-dark">Buy Now!</a>
+
+						</div>
+
+					</div>
+				</div>
+
+
+
 			</div>
 		</div>
 
 	</div>
+
+	</div>
+	</div>
+
+	</div>
+
+
+	<!-------------------------------PRODUCT CARDS END---------------------------------------------------------->
+	<!---------Reviews section------->
+
+	<section class="reviews">
+		<h1>Customer Testimonials</h1>
+		<div class="row text-center">
+
+			<div class="col-sm-6 col-md-4">
+				<div class="testimonial-box">
+					<img src="assets/images/laura.jpg" class="img-responsive" alt="" width="90">
+					<div class="ratings-icons">
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+
+					</div>
+					<h4>Laura O connor</h4>
+					<p><q>Ive had problems with off the shelf skin products for years. Natural healings skincare always leave my skin feeling wonderful. Will be buying again</q></p>
+
+				</div>
+			</div>
+			<!-- End Col -->
+			<div class="col-sm-6 col-md-4">
+				<div class="testimonial-box">
+					<img src="assets/images/dasha.jpg" class="img-responsive" alt="" width="90">
+					<div class="ratings-icons">
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+					</div>
+					<h4>Dasha Osipova</h4>
+					<p><q>Very impressed with how moisturising the products are! A better alternative to big brands</q></p>
+
+				</div>
+			</div>
+
+
+			<div class="col-sm-6 col-md-4">
+				<div class="testimonial-box">
+					<img src="assets/images/sadie.jpg" class="img-responsive" alt="" width="90">
+					<div class="ratings-icons">
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+					</div>
+					<h4>Sadie Rawlings</h4>
+					<p><q>As a vegan im always looking for products that are animal friendly. Super impressed with the body scrubs
+					and they smell scrumptious!!</q></p>
+
+				</div>
+			</div>
+	</section>
+
+
+
+	<!-----modal--->
+
+	<div class="modal" tabindex="-1" role="dialog" id="modalquickview">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Vanilla and Mandarin body scrub</h5>
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+				</div>
+				<div class="modal-body">
+					<img class="img-fluid" src="assets/images/bodyscrub.jpg">
+					<p><em>Our deliciously scented body scrub smells so good you could eat it. Infused with
+							dried manderin skin and vanilla essential oils. This scrub will leave your skin feeling
+							brand new!</em></p>
+					<em>200ml</em><br>
+					<strong>Ingredients</strong>
+					<p>Magnesium Sulfate (Epsom Salt), Sodium Chloride (Fine Sea Salt), Prunus Dulcis (Sweet Almond Oil), Prunus Armeniaca (Aprikot Kernel Oil), Citrus Nobilis (Mandarin Essential Oil), Vanilla Essential Oil, Dried Mandarin Skins, *Limonene, *Linalool.
+						*Naturally occurs in essential oils.
+					</p>
+
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary">Add to Cart</button>
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<div class="modal" tabindex="-1" role="dialog" id="modalquickview2">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Geranium and Ylang-Ylang Soap</h5>
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+				</div>
+				<div class="modal-body">
+					<img class="img-fluid" src="assets/images/soap.jpg">
+					<p><em>Ylang ylang oil is made from the flowers of the herb Cananga 
+							odorata genuina. People apply ylang ylang oil to the skin to promote relaxation,
+							kill bacteria, lower blood pressure</em></p>
+					<em>70g</em>
+					<strong>Ingredients</strong>
+					<p>Saponified Oils of Olea Europaea (Organic Extra Virgin Olive Oil), Cocos Nucifera (Organic Virgin Coconut Oil), Vitis Vinifera ( Grapeseed Oil), Butyrospermum Parkii (Organic She Butter), Pelargonium Graveolens (Rose Geranium), Cananga Odorata (Ylang-Ylang)
+						*Citral, *Geraniol, *Citronellol, *Limonene, *Linalool, *Benzyl salicylate, *Benzyl benzoate, *Farnesol, *Isoeugenol, *Eugenol- *Component of Natural Essential Oils </p>
+
+
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary">Add to Cart</button>
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="modal" tabindex="-1" role="dialog" id="modalquickview3">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Vanilla beeswax Lip Balm</h5>
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+				</div>
+				<div class="modal-body">
+					<img class="img-fluid" src="assets/images/lip.jpg">
+					<p><em>
+							When those cold days are too much for your prescious lips! Let our vanilla lip balm
+							do the job. Made with beeswax and vitamin E oil to help rejuvenate your lips.</em>
+					</p>
+					<em>5ml</em>
+					<strong>Ingredients</strong>
+					<p>Butyrosperum Parkii (Shea Butter), Cera Alba (Beeswax), Mangifera Indica (Mango Seed Butter), Cocos Nucifera (Coconut Oil), Simmondsia Chinensis (Jojoba Oil), Tocopherol (Vitamin E), Vanilla Oil.
+					</p>
+
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary">Add to Cart</button>
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<div class="modal" tabindex="-1" role="dialog" id="modalquickview4">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Lavender Face Cream</h5>
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+				</div>
+				<div class="modal-body">
+					<img class="img-fluid" src="assets/images/lavender.jpg">
+
+					<p><em>This cooling face cream is a great starter to your day or night. Great moisturiser for all skin types</em></p>
+					<em>150ml</em>
+					<strong>Ingredients</strong>
+					<p>Mangifera Indica (Mango Seed Butter), Cocos Nucifera (Coconut Oil), Theobroma Cacao (Cocoa Butter), Vitis Vinifera (Grapeseed Oil), Prunus Armeniaca (Aprikot Kernel Oil), Rosa Canina (Rosehip Oil), Tocopherol(Vitamin E).
+					</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary">Add to Cart</button>
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="modal" tabindex="-1" role="dialog" id="modalquickview5">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Naturally Pure Bath Salts</h5>
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+				</div>
+				<div class="modal-body">
+					<img class="img-fluid" src="assets/images/bath.jpg">
+
+					<p><em>Spark up your bath time with our soothing and relaxing bath salt mix</em></p>
+					<em>150g</em><br>
+					<strong>Ingredients</strong>
+					<p>Sodium Bicarbonate, Citric Acid, Corn Flour, Magnesium Sulfate (Epsom Salt), Himalayan Pink Salt, Which Hazel, Vitis Vinifera (Grapeseed Oil), Dried Rose Petals.
+					</p>
+
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary">Add to Cart</button>
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="modal" tabindex="-1" role="dialog" id="modalquickview6">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">MayChang & Orange Butter</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+				</div>
+				<div class="modal-body">
+					<img class="img-fluid" src="assets/images/maychang.jpg">
+
+					<p><em>May Chang is one of the citrus essential oils and often referred to as the "sunshine essential oil" so light up your day with our citrus and sweet body butter</em></p>
+					<em>200ml</em>
+					<strong>Ingredients</strong>
+					<p>Butyrosperum Parkii (Shea Butter), Cocos Nucifera (Coconut Oil), Prunus Dulcis (Almond Oil), Theobroma Cacao (Cocoa Butter), Calendula Officinalis – Sunflower oil (Calendula Infused Oil), Tocopherol (Vitamin E), Litsea Cubeba (May Chang Essential
+						Oil), Citrus Aurantium Dulcis (Sweet Orange Peel Oil), *Limonene, *Citral *Naturally occurs in essential oils.
+					</p>
+
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary">Add to Cart</button>
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal" tabindex="-1" role="dialog" id="modalquickview7">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Vanilla & Lavender Butter</h5>
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+				</div>
+				<div class="modal-body">
+					<img class="img-fluid" src="assets/images/vanilla.jpg">
+					<p><em>This Vanilla and Lavender body butter is a naturally scented moisturiser to help tackle dry skin</em></p>
+					<em>200ml</em>
+					<p><strong>Ingredients:</strong> Butyrosperum Parkii (Shea Butter), Cocos Nucifera (Coconut Oil), Vitis Vinifera (Grapeseed Oil) Theobroma Cacao (Cocoa Butter), Calendula Officinalis – Sunflower oil (Calendula Infused Oil), Tocopherol (Vitamin E), Lavandula
+						Angustifolia (Lavender Oil), Vanilla Oil.
+					</p>
+
+
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary">Add to Cart</button>
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="modal" tabindex="-1" role="dialog" id="modalquickview8">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Vanilla & Coco bracelet</h5>
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+				</div>
+				<div class="modal-body">
+					<img class="img-fluid" src="assets/images/purplebrace.jpg">
+					<p><em>Our Aromatherapy Bracelets are a fun way to show off our signature scents. Our 
+                stylish trinkets help spread the aromas throughout your body.</em></p>
+					<strong>One Size Fits All</strong>
+
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary">Add to Cart</button>
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="modal" tabindex="-1" role="dialog" id="modalquickview9">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">ylang ylang bracelet
+					</h5>
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+				</div>
+				<div class="modal-body">
+					<img class="img-fluid" src="assets/images/greenbrace.jpg">
+
+					<p><em>Our Aromatherapy Bracelets are a fun way to show off our signature scents. Our 
+                stylish trinkets help spread the aromas throughout your body.</em></p>
+					<strong>One Size Fits All</strong>
+					
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary">Add to Cart</button>
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
 	
-	
-  <!-------------------------------PRODUCT CARDS END---------------------------------------------------------->
-	
+		<div class="modal" tabindex="-1" role="dialog" id="modalquickview10">
+  				<div class="modal-dialog" role="document">
+   				 <div class="modal-content">
+     			 <div class="modal-header">
+        			<h5 class="modal-title">Lavender & peppermint</h5>
+        
+       			 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          			<span aria-hidden="true">&times;</span>
+        			</button>
+      				</div>
+      				<div class="modal-body">
+      				<img class="img-fluid" src="assets/images/bluebrace.jpg">
+      		
+								<p><em>Our Aromatherapy Bracelets are a fun way to show off our signature scents. Our 
+                stylish trinkets help spread the aromas throughout your body.</em></p>
+								<strong>One Size Fits All</strong>
+
+
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary">Add to Cart</button>
+					<button type="button" class="btn btn-secondary"data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="modal" tabindex="-1" role="dialog" id="modalquickview11">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Lavender & Vanilla Bracelet</h5>
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+				</div>
+				<div class="modal-body">
+					<img class="img-fluid" src="assets/images/lavbrace.jpg">
+					<p><em>Our Aromatherapy Bracelets are a fun way to show off our signature scents. Our 
+                stylish trinkets help spread the aromas throughout your body.</em></p>
+					<strong>One Size Fits All</strong>
+
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary">Add to Cart</button>
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="modal" tabindex="-1" role="dialog" id="modalquickview12">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Maychang & orange Bracelet</h5>
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+				</div>
+				<div class="modal-body">
+					<img class="img-fluid" src="assets/images/yellowbrace.jpg">
+					<p><em>Our Aromatherapy Bracelets are a fun way to show off our signature scents. Our 
+                stylish trinkets help spread the aromas throughout your body.</em></p>
+					<strong>One Size Fits All</strong>
+
+
+
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary">Add to Cart</button>
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
 </body>
 
 <hr>
-	  <!-------------------------------FOOTER---------------------------------------------------------->
-							<!---BOOTSTRAP---->
+<!-------------------------------FOOTER---------------------------------------------------------->
+<!---BOOTSTRAP---->
 <footer>
 	<div class="container-fluid bg-light py-3 grad2 ">
 		<div class="container">
@@ -289,8 +725,9 @@
 						</div>
 						<div class="col-sm-11">
 							<div>
-							  <p><em><strong>Email:</strong>naturalhealings@gmail.com</em></p>
-                <p><strong>Tel:</strong>087-234-432</p>
+								<p><em><strong>Email:</strong>naturalhealings@gmail.com</em>
+								</p>
+								<p><strong>Tel:</strong>087-234-432</p>
 							</div>
 						</div>
 					</div>
@@ -327,7 +764,7 @@
 </footer>
 
 
-  <!-------------------------------FOOTER-END--------------------------------------------------------->
+<!-------------------------------FOOTER-END--------------------------------------------------------->
 
 
 
