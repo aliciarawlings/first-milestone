@@ -1,5 +1,8 @@
-/*--header+nav--*/
 
+
+
+
+/*----Index Page----*/
 .bg-img {
   background: url("../images/mainlogo.png");
   min-height: 700px;
@@ -13,27 +16,26 @@
 
 }
 
+
+/*-----Gradient Styles---*/
+
 .grad {
-  height: 150px;
+  height: 100px;
   background-image: linear-gradient(#f8ebe3, white);
 }
-
-
-
-.navfont li {
-  font-size: 20px;
-  color: black;
-  padding-left: 20px;
-  font-family: 'Crimson Text', serif;
+.grad2 {
+  background-image: linear-gradient(white, #f8ebe3);
 }
 
 
 
+
+
+
+/*---Icons----*/
 .social {
-  color: black;
+  color:gray;
   padding: 20px;
-
-
 }
 
 
@@ -42,122 +44,77 @@
   text-decoration: none;
 }
 
+.icon-text {
+  font-family:'Crimson Text', serif;
+  font-size:15px;
+}
 
 
+.icon{
+  color:gray;
+  
+}
+
+.icon:hover{
+  color:purple;
+  text-decoration:none;
+}
 
 
-.heading {
-  size: 60px;
+/*----Navbar----*/
+
+.navfont li {
+  font-size: 25px;
+  padding-left: 20px;
+  font-family: 'Crimson Text', serif;
+  
+
+}
+
+.navbar-header {
+  
   font-family: 'Dancing Script', cursive;
-  color: #996515;
+  font-size:30px;
+  color:gray;
+  padding-right:15px;
+
+  }
+
+.navbar-header:hover {
+  color:purple;
+  text-decoration:none;
+  
 
 }
 
 
 /*--------header and NAv End-------*/
 
-/*--product-display--*/
-
-.cards {
-  text-align: center;
-  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
-  width: 100%;
-   font-family: 'Crimson Text', serif;
-
-
-}
 
 
 
-.cardfont{
-  font-size:40px;
-}
-
-.card-title {
-  height: 40px;
   
+/*---------registration complete------*/
+.reg-comp{
+font-family: 'Crimson Text', serif;
+text-align:center;
+color:gray;
 }
 
-
-/*---------form PAges------*/
-
-.form {
-  width: 100%;
-  height:auto;
-  text-align: center;
-  border: solid 1px black;
-  margin: 20px 0;
-  padding: 12px 20px;
-  display: inline-block;
-  border-radius: 5px;
-
-}
-
-input[text] {
-  width: auto;
-  height: auto;
-}
-
-input[date] {
-  width: auto;
-  height: auto;
-}
-
-input[email] {
-  width: auto;
-  height: auto;
-}
-
-
-.submit {
-  background-color:black;
-  color:white;
-  border:1px black solid;
-  border-radius:25px;
-}
-
-
-/*----------LOGIN PAGE---------*/
-.login {
+.reg-comp-image{
   
-  width: 100%;
-  height:auto;
-  text-align: center;
-  border: solid 1px black;
-  margin: 20px 0;
-  padding: 12px 20px;
-  display: inline-block;
-  border-radius: 5px;
-
+ 
+  background-image: linear-gradient(to right, gray, white), url("../images/welcome.jpg");
+  background-blend-mode: overlay;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
 }
-
 
 
 
 
 /*-----media-query-------------------------*/
-
-
-
-@media only screen and (min-width:768px){
-  .form2{
-    height:100vh;
-  }
-}
-
-
-/*---
-
-@media only screen and (min-width:1440px){
-  .card:hover {
-
-  filter: opacity(30%);
-}
-
-
-}
----*/
-
 
 
 @media only screen and (max-width:420px) {
@@ -168,30 +125,280 @@ input[email] {
 
 
 
-@media only screen and (max-width:2560px) {
-  .foot1 {
-    position: fixed;
-    left: 0;
-    bottom: 0;
+@media only screen and (max-width:767px) {
+  .navfont li {
+     background-color:white;
+  }
+}
+
+@media only screen and (max-width:767px){
+  .icon-text {
+    display:none;
 
   }
 }
 
-@media only screen and (min-width:319px) {
-  .foot1 {
-    position: relative;
-    left: 0;
-    bottom: 0;
+
+@media only screen and (min-width:767px){
+  .navbar-header{
+    white-space:nowrap;
+    font-size:25px;
   }
 }
 
 
-/*------footer--------*/
-.grad2 {
-  background-image: linear-gradient(white, #f8ebe3);
+
+/*----index2------*/
+
+.section-font {
+  font-family: 'Crimson Text', serif;
+  font-size: 25px;
+}
+
+.section-font h1 {
+  color: #d99f7b;
 }
 
 
 
 
+/*----About me section--*/
+
+
+.aboutimg {
+  border-radius: 50%;
+  width: 600px;
+  height: 600px;
+  background-image:url("assets/images/andrap.jpg");
+  background-attachment: fixed;
+  position:center;
+  background-repeat:no-repeat;
+}
+
+
+
+.aboutme {
+  text-align: center;
+
+}
+
+.aboutme p {
+  font-size: 20px;
+  font-family: 'Cinzel', serif;
+}
+
+.aboutme h1 {
+  font-family: 'Cinzel', serif;
+  color:black;
+}
+
+
+.aboutme h2 {
+  font-family: 'Dancing Script', cursive;
+}
+
+
+
+
+/*----Essential oils---*/
+
+.oils {
+  font-size: 20px;
+  font-family: 'Cinzel', serif;
+
+
+}
+
+
+.oils h1 {
+  color: #008000;
+}
+
+
+.oilheading {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 45px;
+  color: #d99f7b;
+}
+
+h1 {
+  font-weight: 500;
+
+
+}
+
+/*---Index beach picture----*/
+.jumbobg {
+  background-image: url("../images/beach.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 350px;
+}
+
+
+/*----what we do ---*/
+.whatdo{
+  font-size:20px;
+  text-align:center;
+  font-family: 'Cinzel', serif;
+  padding-bottom:100px;
+  
+  
+  }
+  .whatdo h1{
+  color:#008000;
+  }
+
+
+/*---Contact us---*/  
+
+.contact-head{
+  color:#43464b;
+    font-family: 'Cinzel', serif;
+    font-size:30pxl
+}
+
+.love {
+color:purple;
+}
+
+/*---skin----*/
+/*--product-display--*/
+
+.cards {
+  text-align: center;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  width: 100%;
+   font-family: 'Crimson Text', serif;
+}
+
+
+
+.cardfont{
+  font-size:40px;
+}
+
+
+.card-title {
+  height: 40px;
+  }
+
+  .cardtext {
+    font-size: 20px;
+    font-family: 'Cinzel', serif;
+  }
+
+/*----Customer REviews---*/
+
+ .reviews h1 {
+  color: #d4af37;
+}
+
+
+.reviews {
+  font-family: 'Crimson Text', serif;
+  text-align: center;
+}
+
+.testimonial-box img {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin: 0 0 15px;
+}
+
+.testimonial-box h4 {
+  color: #fe4819;
+}
+
+.testimonial-box p {
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.ratings-icons {
+  color: #fec42d;
+  margin-bottom: 15px;
+}
+
+
+/*---Modal Section---*/
+.modal-title{
+  font-family:'Dancing Script', cursive;
+  font-size:25px;
+
+}
+
+.modal-body {
+
+font-family: 'Noto Serif', serif;
+
+}
+/*--skin-end----*/
+
+
+/*--registration page---*/
+.regimage {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/beachbalm.jpg");
+  height:100vh;
+  background-size:cover;
+  background-attachment: fixed;
+}
+  
+ .regimage h1 {
+   font-size:4em;
+   margin-top:0;
+   margin-bottom:0.5em;
+   color: #f8ebe3;
+ }
+
+  .reg-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*----w3 schools line of code----*/
+    color: #f8ebe3;
+    font-family: 'Crimson Text', serif;
+  }
+
+.regimage .btn {
+  display:block;
+  width:150px;
+  padding:1em;
+  margin-top:30px;
+  border:3px solid  #f8ebe3;
+  margin-left:auto;
+  margin-right:auto;
+  color: #f8ebe3;
+  text-decoration:none;
+  font-size:1.5em;
+  
+}
+
+.reg-para h1 {
+  
+  font-family: 'Crimson Text', serif;
+  color:#008000;
+  text-align:center;
+
+}
+
+.reg-para {
+  font-size:20px;
+  font-family:'Crimson Text', serif;
+
+
+}
+
+
+.quantity{
+  width:40px;
+  text-align:center;
+}
 
